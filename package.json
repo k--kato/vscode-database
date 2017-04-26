@@ -54,10 +54,6 @@
       {
         "key": "Ctrl+q",
         "command": "extension.querySQL"
-      },
-      {
-        "key": "Ctrl+Alt+q",
-        "command": "extension.queryBuild"
       }
     ],
     "snippets": [
@@ -70,7 +66,7 @@
   "dependencies": {
     "fs": "0.0.2",
     "mysql": "^2.12.0",
-    "pg": "^6.1.0"
+    "pg": "^6.1.5"
   },
   "devDependencies": {
     "vscode": "0.10.x"
